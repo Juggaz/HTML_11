@@ -1,34 +1,45 @@
-body {
+main {
     margin: 3px 10%;
-}
-
-.header_left {
-    border-style: solid;
-    border-top-color: #5c5d66;
-    border-width: 30px 0px 0px 0px;
-    display: inline-block;
-    margin-right: 3px;
-}
-
-.logo {
-    padding-top: 50px;
-}
-
-.header_right {
-    border-style: solid;
-    border-top-color: #5c5d66;
-    border-width: 30px 0px 0px 0px;
-    display: inline-block;
-}
-
-.menu {
-    border-style: solid;
-    border-width: 2px;
-    padding-top: 50px;
 }
 
 header {
     display: flex;
-    flex-direction: row;
+    border-style: solid;
+    padding: 20px 10%;
+    border-width: 0px 0px 1px 0px;
+}
+
+.logo {
+    width: 97%;
+}
+
+.nav_options {
+    width: 100%;
+    display: flex;
     flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.nav_options a {
+    font-family: Segoe UI, system-ui;
+    font-size: 18px;
+    color: #444;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.nav_arrow {
+    display: flex;
 }
